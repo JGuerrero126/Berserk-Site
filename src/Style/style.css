@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  color: red;
+  font-family: "Koulen", cursive;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 5rem;
+}
+
+ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: red;
+}
+
+.home {
+  margin-left: 1rem;
+}
+
+.hero {
+  width: 70rem;
+  height: 30rem;
+}
+
+.heading {
+  color: red;
+  font-size: 3em;
+  font-family: "Staatliches", cursive;
+}
+
+.griffithimg {
+  width: 30rem;
+  height: 30rem;
+}
+
+.cascaimg {
+  width: 30rem;
+  height: 30rem;
+}
+
+.femtoimg {
+  width: 30rem;
+  height: 30rem;
+}
+
+.grif:hover #griffith {
+  display: none;
+}
+
+.grif:hover #femto {
+  display: inline;
+}
+
+.grif #femto {
+  display: none;
+}
+
+.plothead {
+  font-size: 4rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.plottext {
+  font-size: 1.5rem;
+  text-indent: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
