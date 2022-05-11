@@ -1,5 +1,5 @@
 import React from "react";
-import berserkhead from "../../Images/berserkanimelogo.png";
+import berserkhead from "../../Images/berserkhead.png";
 
 export default function Home() {
   return (

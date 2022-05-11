@@ -4,6 +4,9 @@ import Home from "./pages/Home";
 import Plot from "./pages/Plot";
 import Characters from "./pages/Characters";
 import Themes from "./pages/Themes";
+import Adaptations from "./pages/Adaptations";
+import Footer from "./pages/Footer";
+import Music from "./pages/Music";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -19,7 +22,10 @@ export default function PortfolioContainer() {
     if (currentPage === "Characters") {
       return <Characters />;
     }
-    return <Themes />;
+    if (currentPage === "Themes") {
+      return <Themes />;
+    }
+    return <Adaptations />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -30,6 +36,8 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Music />
+      <Footer />
     </div>
   );
 }

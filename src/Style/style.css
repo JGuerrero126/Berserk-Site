@@ -6,6 +6,7 @@ body {
 
 ul {
   margin-left: 1rem;
+  text-align: center;
 }
 
 ul li {
@@ -20,8 +21,29 @@ ul li a {
   color: white;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
 .active {
   color: red;
+}
+
+.music {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.music2 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 3rem;
+  cursor: pointer;
 }
 
 .home {
@@ -29,29 +51,41 @@ ul li a {
 }
 
 .hero {
-  width: 70rem;
-  height: 30rem;
+  width: 100%;
+  height: 60rem;
 }
 
 .heading {
   color: red;
   font-size: 3em;
   font-family: "Staatliches", cursive;
+  text-align: center;
 }
 
-.griffithimg {
+.img {
   width: 30rem;
   height: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1rem groove red;
 }
 
-.cascaimg {
-  width: 30rem;
-  height: 30rem;
+.gutsimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1rem groove red;
 }
 
-.femtoimg {
-  width: 30rem;
-  height: 30rem;
+.struggleimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1rem groove red;
 }
 
 .grif:hover #griffith {
@@ -66,16 +100,18 @@ ul li a {
   display: none;
 }
 
-.plothead {
+.head {
   font-size: 4rem;
   margin-top: 5rem;
   margin-left: 2rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
-.plottext {
+.text {
   font-size: 1.5rem;
   text-indent: 2rem;
   margin-left: 5rem;
   margin-right: 5rem;
+  text-align: center;
 }

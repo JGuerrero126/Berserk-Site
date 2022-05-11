@@ -7,14 +7,14 @@ import FemtoImg from "../../Images/femtostanding.jpg";
 export default function Characters() {
   return (
     <section>
-      <h2>The Characters Of Berserk</h2>
-      <h3>Guts</h3>
+      <h2 className="head">The Characters Of Berserk</h2>
+      <h3 className="head">Guts</h3>
       <img
         className="gutsimg"
         src={GutsImg}
         alt="Man with black armor standing and holding a very big sword"
       />
-      <p>
+      <p className="text">
         Berserk centers around the life and struggles of three characters. The
         first one I'd like to describe is the main character. The 100-Man Slayer
         himself, Guts. <br />
@@ -35,13 +35,13 @@ export default function Characters() {
       </p>
       <br />
       <br />
-      <h3>Casca</h3>
+      <h3 className="head">Casca</h3>
       <img
-        className="cascaimg"
+        className="img"
         src={CascaImg}
         alt="Woman in armor standing proud with sword extended"
       />
-      <p>
+      <p className="text">
         The Second character I'd like to talk about is just as important as the
         man [Guts] himself. The "Big Sis" of the Band Of The Hawk, the badass
         known as Casca. <br />
@@ -64,19 +64,19 @@ export default function Characters() {
       <br />
       <div className="grif">
         <div id="griffith">
-          <h3 className="griffithtext">Griffith</h3>
+          <h3 className="griffithtext head">Griffith</h3>
           <img
-            className="griffithimg"
+            className="img"
             src={GriffithImg}
             alt="Androgynous looking person standing while wearing armor"
           />
         </div>
         <div id="femto">
-          <h3 className="femtotext">Femto</h3>
-          <img className="femtoimg" src={FemtoImg} alt="Demon staring at you" />
+          <h3 className="femtotext head">Femto</h3>
+          <img className="img" src={FemtoImg} alt="Demon staring at you" />
         </div>
       </div>
-      <p>
+      <p className="text">
         The final person in our trio of leads is arguably the most important. He
         is the villain, the Hawk Of Darkness, the leader of the Band Of The
         Hawk, the Hawk himself! Griffith. <br />

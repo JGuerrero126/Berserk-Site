@@ -3,8 +3,8 @@ import React from "react";
 export default function Plot() {
   return (
     <section>
-      <h2 className="plothead">The Plot Of Berserk</h2>
-      <p className="plottext">
+      <h2 className="head">The Plot Of Berserk</h2>
+      <p className="text">
         Berserk follows the life of the main character, Guts, as he struggles
         through life. Throughout the various arcs of the story we see Guts
         undergo various changes including two complete character shifts with

@@ -50,6 +50,18 @@ function NavTabs({ currentPage, handlePageChange }) {
           The Themes
         </a>
       </li>
+      <li>
+        <a
+          href="#adaptations"
+          onClick={() => handlePageChange("Adaptations")}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={
+            currentPage === "Adaptations" ? "nav-link active" : "nav-link"
+          }
+        >
+          The Adaptations
+        </a>
+      </li>
     </ul>
   );
 }

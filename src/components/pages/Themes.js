@@ -3,10 +3,17 @@ import React from "react";
 export default function Themes() {
   return (
     <section>
-      <h2>The Themes Of Berserk</h2>
-      <p>The Following Section Contains Spoilers For Berserk, up to Vol.30.</p>
-      <h3>"TAKE HEED, STRUGGLER"</h3>
-      <p>
+      <h2 className="head">The Themes Of Berserk</h2>
+      <p className="text">
+        The Following Section Contains Spoilers For Berserk, up to Vol.30.
+      </p>
+      <h3 className="head">"TAKE HEED, STRUGGLER"</h3>
+      <img
+        alt="manga panel showing Skull Knight talking to Guts"
+        className="struggleimg"
+        src={require("../../Images/takeheedstruggler.png")}
+      />
+      <p className="text">
         These are the words spoken from Skull Knight to Guts. Guts is often
         referred to by Skull Knight as "Struggler" or "He Who Struggles" because
         of his nature to fight on no matter what. Herein lies one of the biggest
