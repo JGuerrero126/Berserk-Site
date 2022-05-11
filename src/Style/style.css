@@ -55,6 +55,14 @@ footer {
   height: 60rem;
 }
 
+.credit {
+  text-decoration: none;
+  color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .heading {
   color: red;
   font-size: 3em;
