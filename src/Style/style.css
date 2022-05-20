@@ -5,7 +5,7 @@ body {
 }
 
 ul {
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   text-align: center;
 }
 
@@ -86,6 +86,8 @@ footer {
   margin-right: auto;
   margin-bottom: 1rem;
   border: 1rem groove red;
+  width: 50rem;
+  height: 40rem;
 }
 
 .struggleimg {
@@ -94,6 +96,30 @@ footer {
   margin-right: auto;
   margin-bottom: 1rem;
   border: 1rem groove red;
+}
+
+.gutschange .blacksword {
+  display: none;
+}
+
+.gutschange:hover .guts {
+  display: none;
+}
+
+.gutschange:hover .blacksword {
+  display: inline;
+}
+
+.casca #pastCasca {
+  display: none;
+}
+
+.casca:hover #pastCasca {
+  display: block;
+}
+
+.casca:hover #currentCasca {
+  display: none;
 }
 
 .grif:hover #griffith {
@@ -111,15 +137,249 @@ footer {
 .head {
   font-size: 4rem;
   margin-top: 5rem;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   margin-bottom: 3rem;
   text-align: center;
 }
 
 .text {
   font-size: 1.5rem;
+  /* text-indent: 2rem; */
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+.smalltext {
+  font-size: 1rem;
   text-indent: 2rem;
   margin-left: 5rem;
   margin-right: 5rem;
   text-align: center;
+}
+
+.embedded {
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1rem groove red;
+}
+
+@media only screen and (min-width: 2000px) {
+  ul li a {
+    font-size: 3rem;
+  }
+
+  .hero {
+    height: 80rem;
+  }
+
+  .music {
+    width: 25rem;
+  }
+
+  .credit {
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 2rem;
+  }
+
+  .head {
+    font-size: 7rem;
+  }
+
+  .text {
+    font-size: 3rem;
+  }
+
+  .smalltext {
+    font-size: 2rem;
+  }
+
+  .img {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .gutsimg {
+    width: 50%;
+  }
+
+  .struggleimg {
+    width: 50%;
+  }
+
+  .embedded {
+    width: 50%;
+    height: 40rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  ul {
+    margin-left: 0;
+  }
+  ul li {
+    display: block;
+    margin-left: 0;
+  }
+
+  ul li a {
+    font-size: 3rem;
+  }
+
+  .hero {
+    height: 50rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .credit {
+    position: relative;
+    margin-left: 1rem;
+  }
+
+  .music {
+    position: fixed;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ul li {
+    display: block;
+    margin-left: 0;
+  }
+
+  ul li a {
+    font-size: 4rem;
+  }
+
+  .hero {
+    height: 30rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .credit {
+    position: fixed;
+    right: 0;
+    left: auto;
+  }
+
+  .music {
+    width: 15rem;
+  }
+
+  .gutsimg {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  ul li {
+    display: block;
+    margin-left: 0;
+  }
+
+  ul li a {
+    font-size: 4rem;
+  }
+
+  .hero {
+    height: 15rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .credit {
+    position: relative;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    top: auto;
+  }
+
+  .music {
+    width: 15rem;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+  }
+
+  .gutsimg {
+    width: 90%;
+    height: auto;
+  }
+
+  .img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .struggleimg,
+  .embedded {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  ul li {
+    margin-bottom: 1rem;
+  }
+
+  .hero {
+    height: 15rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .credit {
+    position: relative;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    top: auto;
+  }
+
+  .music {
+    display: none;
+  }
+
+  .gutsimg {
+    width: 90%;
+  }
+
+  .img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .struggleimg,
+  .embedded {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .text,
+  .smalltext {
+    text-indent: 0%;
+  }
+
+  .gutsimg {
+    width: 100%;
+  }
 }

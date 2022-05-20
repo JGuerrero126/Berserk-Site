@@ -7,6 +7,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul>
       <li>
         <a
+          id="home"
           href="#home"
           onClick={() => handlePageChange("Home")}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -20,6 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li>
         <a
+          id="plot"
           href="#plot"
           onClick={() => handlePageChange("Plot")}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -30,6 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li>
         <a
+          id="characters"
           href="#characters"
           onClick={() => handlePageChange("Characters")}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -42,6 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li>
         <a
+          id="themes"
           href="#themes"
           onClick={() => handlePageChange("Themes")}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -52,6 +56,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li>
         <a
+          id="adaptations"
           href="#adaptations"
           onClick={() => handlePageChange("Adaptations")}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -60,6 +65,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           }
         >
           The Adaptations
+        </a>
+      </li>
+      <li>
+        <a
+          id="manga"
+          href="#manga"
+          onClick={() => handlePageChange("Manga")}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === "Manga" ? "nav-link active" : "nav-link"}
+        >
+          The Manga
         </a>
       </li>
     </ul>

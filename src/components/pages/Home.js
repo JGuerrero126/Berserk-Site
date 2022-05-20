@@ -11,12 +11,12 @@ export default function Home() {
           alt="Man in armor sitting above BERSERK logo"
         />
       </div>
-      <a href="https://www.reddit.com/user/Jacko_2026/" className="credit">
-        Image courtesy of u/Jacko_2026 on Reddit.
-      </a>
       <header>
         <h1 className="heading">Welcome to my Berserk Fan Site!</h1>
       </header>
+      <a href="https://www.reddit.com/user/Jacko_2026/" className="credit">
+        Image courtesy of u/Jacko_2026 on Reddit.
+      </a>
     </div>
   );
 }
