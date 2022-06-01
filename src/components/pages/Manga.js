@@ -5,8 +5,8 @@ export default function Manga() {
     <section>
       <h2 className="head">The Manga</h2>
       <p className="text">
-        Now, let's talk about the only way to get the entire berserk story. The
-        Manga.
+        Currently, the only way to experience Berserk in full is by reading the
+        manga.
       </p>
     </section>
   );

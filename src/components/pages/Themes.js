@@ -5,7 +5,8 @@ export default function Themes() {
     <section>
       <h2 className="head">The Themes Of Berserk</h2>
       <p className="smalltext">
-        The Following Section Contains Spoilers For Berserk, up to Vol.30.
+        The Following Section Contains Spoilers For Berserk, up to and including
+        Vol. 33.
       </p>
       <h3 className="head">"TAKE HEED, STRUGGLER"</h3>
       <img
