@@ -10,7 +10,9 @@ export default function Characters() {
   return (
     <section>
       <h2 className="head">The Characters Of Berserk</h2>
+      {/* This is the wider div that allows the image and name to change on hover */}
       <div className="gutschange">
+        {/* This is the first group, with Guts actual name and image */}
         <div className="guts">
           <h3 className="head">Guts</h3>
           <img
@@ -19,6 +21,7 @@ export default function Characters() {
             alt="Man with black armor standing and holding a very big sword"
           />
         </div>
+        {/* This is the second group with Guts' alt name and image */}
         <div className="blacksword">
           <h3 className="head">The Black Swordsman</h3>
           <img
@@ -28,6 +31,7 @@ export default function Characters() {
           />
         </div>
       </div>
+      {/* The following text does not change on hover */}
       <p className="text">
         The Struggler
         <br />
@@ -47,8 +51,11 @@ export default function Characters() {
         this struggle that we come to appreciate him and even take notes from
         him on how we can approach hard times in our own lives.
       </p>
+      {/* Line breaks for visual styling with no css */}
       <br />
       <br />
+      {/* This group is different, only the image changes so no wider div is needed besides the one that wraps the entire name and image elements together
+       */}
       <div className="casca">
         <h3 className="head">Casca</h3>
         <img

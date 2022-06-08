@@ -2,6 +2,30 @@ body {
   background-color: black;
   color: red;
   font-family: "Koulen", cursive;
+  cursor: url("../Images/dragonslayer-export.png"), auto;
+}
+
+body a {
+  cursor: url("../Images/dragonslayer-export.png"), auto;
+  animation: cursor 0.5s linear infinite;
+}
+
+@keyframes cursor {
+  0% {
+    cursor: url("../Images/dragonslayerswingframe1-export1.png"), auto;
+  }
+  25% {
+    cursor: url("../Images/dragonslayerswingframe1-export2.png"), auto;
+  }
+  50% {
+    cursor: url("../Images/dragonslayerswingframe1-export3.png"), auto;
+  }
+  75% {
+    cursor: url("../Images/dragonslayerswingframe1-export4.png"), auto;
+  }
+  100% {
+    cursor: url("../Images/dragonslayerswingframe1-export5.png"), auto;
+  }
 }
 
 ul {

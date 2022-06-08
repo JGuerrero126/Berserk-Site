@@ -8,6 +8,7 @@ export default function Themes() {
         The Following Section Contains Spoilers For Berserk, up to and including
         Vol. 33.
       </p>
+      {/* Each Writing on this page uses the h3 element, this page is currently unfinished and in need of revisions */}
       <h3 className="head">"TAKE HEED, STRUGGLER"</h3>
       <img
         alt="manga panel showing Skull Knight talking to Guts"

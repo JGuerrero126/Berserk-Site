@@ -210,8 +210,10 @@ export default function Adaptations() {
           </p>
         </div>
       </section>
+      {/* A few line breaks just for better visuals without needing to add more css */}
       <br></br>
       <br></br>
+      {/* A disclaimer due to the various images used on this page */}
       <section>
         <p className="smalltext">
           The images used on this page belong to their respective copyright
