@@ -6,7 +6,7 @@ export default function Adaptations() {
       <section>
         {/* This section is a description and review of all the various adaptations of Berserk */}
         <div>
-          <h2 className="head">The Adaptations</h2>
+          <h2 className="head">The Adaptations Of Berserk</h2>
           <p className="text">
             Berserk has had many different adaptations over the years. There
             have been video games, anime, even a trilogy of movies. Below is a

@@ -5,8 +5,8 @@ import Plot from "./pages/Plot";
 import Characters from "./pages/Characters";
 import Themes from "./pages/Themes";
 import Adaptations from "./pages/Adaptations";
-import Footer from "./pages/Footer";
-import Music from "./pages/Music";
+import Footer from "./Footer";
+import Music from "./Music";
 import Manga from "./pages/Manga";
 
 export default function PortfolioContainer() {

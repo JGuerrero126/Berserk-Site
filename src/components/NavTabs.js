@@ -70,12 +70,12 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li>
         <a
           id="manga"
-          href="#manga"
+          href="#artwork"
           onClick={() => handlePageChange("Manga")}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Manga" ? "nav-link active" : "nav-link"}
         >
-          The Manga
+          The Artwork
         </a>
       </li>
     </ul>

@@ -1,5 +1,5 @@
 import React from "react";
-import Theme from "../../Music/Guts Theme.mp3";
+import Theme from "../Music/Guts Theme.mp3";
 
 function Music() {
   return (

@@ -219,6 +219,33 @@ footer {
   height: 25rem;
 }
 
+.mangaimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1rem groove red;
+  width: 90%;
+}
+
+.mangatallimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1rem groove red;
+  width: 60%;
+}
+
+.mangashortimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border: 1rem groove red;
+  width: 50%;
+}
+
 @media only screen and (min-width: 2000px) {
   ul li a {
     font-size: 3rem;
