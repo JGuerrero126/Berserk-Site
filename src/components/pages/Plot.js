@@ -5,8 +5,7 @@ export default function Plot() {
     <section>
       <h2 className="head">The Plot Of Berserk</h2>
       <h3 className="smalltext">
-        The Following is a brief synopsis of the basic plot of Berserk<br></br>
-        For a more intensive walkthrough checkout <a>The Manga page</a>
+        The Following is a brief synopsis of the basic plot of Berserk
       </h3>
       <br />
       <br />

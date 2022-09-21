@@ -5,8 +5,7 @@ export default function Themes() {
     <section>
       <h2 className="head">The Themes Of Berserk</h2>
       <p className="smalltext">
-        The Following Section Contains Spoilers For Berserk, up to and including
-        Vol. 33.
+        The Following Section Contains Spoilers For All Of Berserk
       </p>
       {/* Each Writing on this page uses the h3 element, this page is currently unfinished and in need of revisions */}
       <h3 className="head">"TAKE HEED, STRUGGLER"</h3>
@@ -60,9 +59,11 @@ export default function Themes() {
         everyday? Every battle? In the end, Guts chooses not to give in. Instead
         he pledges to struggle on and fight with everything he has to protect
         the woman he loves and to never abandon her again. It's moments like
-        these, moments where Guts is full of regret and sadness but isn't of
+        these, moments where Guts is full of regret and sadness but instead of
         giving up he chooses to struggle forward that are the message of
         Berserk.
+        <br />
+        <br />
       </p>
     </section>
   );
