@@ -38,7 +38,7 @@ export default function Adaptations() {
           <img
             alt="Cover Art for the game"
             className="shortgameimg"
-            src={require("../../Images/SOTBGR.jpeg")}
+            src={require("../../Images/SOTBGRCover.jpg")}
           />
           <p className="text">
             Sword of the Berserk for the Sega Dreamcast is a pretty unique game
@@ -58,7 +58,7 @@ export default function Adaptations() {
           <img
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/BMF.jpg")}
+            src={require("../../Images/BMFCover.jpg")}
           />
           <p className="text">
             Berserk: Millennium Falcon for the Playstation 2 follows more
