@@ -1,9 +1,11 @@
-body {
+#root {
   background-color: black;
   color: red;
   font-family: "Koulen", cursive;
   cursor: url("../Images/dragonslayer-export.png"), auto;
-  height: 100vh;
+  height: 100%;
+  padding-bottom: 2rem;
+  width: 100%;
 }
 
 body a {
@@ -52,13 +54,18 @@ footer {
 }
 
 audio {
-  width: 10rem;
+  width: 12rem;
   height: 2rem;
 }
 
 audio::-webkit-media-controls-panel {
   background-color: red;
   font-weight: bold;
+}
+
+.heightvh {
+  height: 100vh;
+  padding-bottom: -2rem;
 }
 
 .active {

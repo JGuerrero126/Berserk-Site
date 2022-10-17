@@ -1,84 +1,84 @@
+import { Link, Wrap, WrapItem } from "@chakra-ui/react";
 import React from "react";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul>
-      <li>
-        <a
+    <Wrap justify="center" spacing="4rem">
+      <WrapItem>
+        <Link
           id="home"
           href="#home"
+          _hover={{ color: "white" }}
           onClick={() => handlePageChange("Home")}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={
             currentPage === "Home" ? "nav-link active home" : "nav-link home"
           }
         >
           Homepage
-        </a>
-      </li>
-      <li>
-        <a
+        </Link>
+      </WrapItem>
+      <WrapItem>
+        <Link
           id="plot"
           href="#plot"
+          _hover={{ color: "white" }}
           onClick={() => handlePageChange("Plot")}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Plot" ? "nav-link active" : "nav-link"}
         >
-          The Plot
-        </a>
-      </li>
-      <li>
-        <a
+          Plot
+        </Link>
+      </WrapItem>
+      <WrapItem>
+        <Link
           id="characters"
           href="#characters"
+          _hover={{ color: "white" }}
           onClick={() => handlePageChange("Characters")}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={
             currentPage === "Characters" ? "nav-link active" : "nav-link"
           }
         >
-          The Characters
-        </a>
-      </li>
-      <li>
-        <a
+          Characters
+        </Link>
+      </WrapItem>
+      <WrapItem>
+        <Link
           id="themes"
           href="#themes"
+          _hover={{ color: "white" }}
           onClick={() => handlePageChange("Themes")}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Themes" ? "nav-link active" : "nav-link"}
         >
-          The Themes
-        </a>
-      </li>
-      <li>
-        <a
+          Themes
+        </Link>
+      </WrapItem>
+      <WrapItem>
+        <Link
           id="adaptations"
           href="#adaptations"
+          _hover={{ color: "white" }}
           onClick={() => handlePageChange("Adaptations")}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={
             currentPage === "Adaptations" ? "nav-link active" : "nav-link"
           }
         >
-          The Adaptations
-        </a>
-      </li>
-      <li>
-        <a
+          Adaptations
+        </Link>
+      </WrapItem>
+      <WrapItem>
+        <Link
           id="manga"
           href="#artwork"
+          _hover={{ color: "white" }}
           onClick={() => handlePageChange("Manga")}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Manga" ? "nav-link active" : "nav-link"}
         >
-          The Artwork
-        </a>
-      </li>
-    </ul>
+          Artwork
+        </Link>
+      </WrapItem>
+    </Wrap>
   );
 }
 

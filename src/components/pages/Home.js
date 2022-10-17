@@ -3,7 +3,7 @@ import berserkhead from "../../Images/berserkhead.png";
 
 export default function Home() {
   return (
-    <div>
+    <div className="heightvh">
       <div>
         <img
           className="hero"
