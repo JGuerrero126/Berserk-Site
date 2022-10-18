@@ -1,10 +1,10 @@
 import React from "react";
-import GutsImg from "../../Images/guts-standing-big.jpg";
-import CascaImg from "../../Images/cascaberserk.png";
-import GriffithImg from "../../Images/griffith.jpg";
-import FemtoImg from "../../Images/femtostanding.jpg";
-import BlackSwordImg from "../../Images/guts-flame.png";
-import CurrentCasca from "../../Images/casca-current.png";
+import GutsImg from "../../Images/Characters/guts-standing-big.jpg";
+import CascaImg from "../../Images/Characters/cascaberserk.png";
+import GriffithImg from "../../Images/Characters/griffith.jpg";
+import FemtoImg from "../../Images/Characters/femtostanding.jpg";
+import BlackSwordImg from "../../Images/Characters/guts-flame.png";
+import CurrentCasca from "../../Images/Characters/casca-current.png";
 
 export default function Characters() {
   return (

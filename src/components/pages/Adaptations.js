@@ -1,3 +1,4 @@
+import { Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 export default function Adaptations() {
@@ -6,15 +7,15 @@ export default function Adaptations() {
       <section>
         {/* This section is a description and review of all the various adaptations of Berserk */}
         <div>
-          <h2 className="head">The Adaptations Of Berserk</h2>
-          <p className="text">
+          <Heading className="head">The Adaptations Of Berserk</Heading>
+          <Text className="text">
             Berserk has had many different adaptations over the years. There
             have been video games, anime, even a trilogy of movies. Below is a
             video that will give a brief overview of the many different ways
             people have tried to tell the story of Berserk as well as a bit of
             info about the Manga itself. Make sure to check out the video on
             youtube and give it a like!
-          </p>
+          </Text>
           {/* This embedded video links to a youtube video I got permission to use which talks about the various adaptations of Berserk */}
           <iframe
             className="embedded"
@@ -27,20 +28,22 @@ export default function Adaptations() {
             allowfullscreen
           ></iframe>
           {/* From this point on, the rest of the opinions are my own */}
-          {/* <p className="smalltext">
+          {/* <Text className="smalltext">
         The following are my thoughts on the various adaptations of Berserk.
-      </p> */}
+      </Text> */}
         </div>
         {/* This Section goes through all the Berserk Video Games */}
-        <h3 className="head">The Games</h3>
+        <Heading className="head">The Games</Heading>
         <div>
-          <h5 className="smallhead">Sword of the Berserk: Guts' Rage</h5>
-          <img
+          <Heading className="smallhead">
+            Sword of the Berserk: Guts' Rage
+          </Heading>
+          <Image
             alt="Cover Art for the game"
             className="shortgameimg"
-            src={require("../../Images/SOTBGRCover.jpg")}
+            src={require("../../Images/Games/SOTBGRCover.jpg")}
           />
-          <p className="text">
+          <Text className="text">
             Sword of the Berserk for the Sega Dreamcast is a pretty unique game
             because the author of Berserk actually wrote the plot for the game.
             The game revolves around Guts and Casca getting wind of a potential
@@ -51,16 +54,16 @@ export default function Adaptations() {
             Berserk community and game critics agree that the game has
             responsive gameplay with a decent plot and if you are fan of Berserk
             you should definitely play it!
-          </p>
+          </Text>
         </div>
         <div>
-          <h5 className="smallhead">Berserk: Millennium Falcon</h5>
-          <img
+          <Heading className="smallhead">Berserk: Millennium Falcon</Heading>
+          <Image
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/BMFCover.jpg")}
+            src={require("../../Images/Games/BMFCover.jpg")}
           />
-          <p className="text">
+          <Text className="text">
             Berserk: Millennium Falcon for the Playstation 2 follows more
             closely to the traditional adaption route of simply adapting the
             story of the Berserk into the medium of video games as opposed to
@@ -68,16 +71,18 @@ export default function Adaptations() {
             was. A significant increase in budget was given for this game so the
             graphics and gameplay see various improvements. The story follows
             the events of volume 22 - 27 of the manga.
-          </p>
+          </Text>
         </div>
         <div>
-          <h5 className="smallhead">Berserk and the Band of the Hawk</h5>
-          <img
+          <Heading className="smallhead">
+            Berserk and the Band of the Hawk
+          </Heading>
+          <Image
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/BATBOTH.jpg")}
+            src={require("../../Images/Games/BATBOTH.jpg")}
           />
-          <p className="text">
+          <Text className="text">
             Berserk and the Band of the Hawk or Berserk Musou as it is also
             called is the most high profile and most recent video game based on
             Berserk. It made the monumental effort of trying to adopt almost the
@@ -90,18 +95,18 @@ export default function Adaptations() {
             well with Berserk. It also features full scenes from the movie
             trilogy which came out around the same time. It is considered a must
             play for fans of Berserk.
-          </p>
+          </Text>
         </div>
-        {/* The following is all about the two anime adaptations */}
-        <h3 className="head">The Animes</h3>
+        {/* The following is all about the three anime adaptations */}
+        <Heading className="head">The Animes</Heading>
         <div>
-          <h5 className="smallhead">Berserk 1997</h5>
-          <img
+          <Heading className="smallhead">Berserk 1997</Heading>
+          <Image
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/B97dvd.jpg")}
+            src={require("../../Images/Anime/B97dvd.jpg")}
           />
-          <p className="text">
+          <Text className="text">
             Berserk 1997 mainly adapts the "Golden Age" arc from Berserk with
             quite a few things cut out and/or changed from the manga. Despite
             this, it is considered one of most beloved adaptations of Berserk
@@ -110,16 +115,16 @@ export default function Adaptations() {
             end of the arc, it's classic and nostalgic look as well as its
             beloved soundtrack have even extended its reach to the modern day
             with a resurgence on the popular social media app TikTok.
-          </p>
+          </Text>
         </div>
         <div>
-          <h5 className="smallhead">Berserk 2016</h5>
-          <img
+          <Heading className="smallhead">Berserk 2016</Heading>
+          <Image
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/b2016.jpg")}
+            src={require("../../Images/Anime/b2016.jpg")}
           />
-          <p className="text">
+          <Text className="text">
             This adaptation is by far the most controversial Berserk adaptation,
             it is outright despised by the majority of Berserk fans for not only
             being a particularly bad adaptation but also a bad anime in it's own
@@ -129,20 +134,37 @@ export default function Adaptations() {
             beats are skipped, entire arcs are ignored, not to mention the
             various techinical issues the anime has. This adaptation is best
             left forgotten.
-          </p>
+          </Text>
         </div>
-        {/* This section is about the movie trilogy */}
-        <h3 className="head">The Movie Trilogy</h3>
         <div>
-          <h5 className="smallhead">
-            Berserk: Golden Age Arc I The Egg Of The King
-          </h5>
-          <img
+          <Heading className="smallhead">
+            Berserk: Golden Age Arc Memorial Edition
+          </Heading>
+          <Image
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/BM1.jpg")}
+            src={require("../../Images/Anime/BTGAAMECover.jpg")}
           />
-          <p className="text">
+          <Text className="text">
+            This is a somewhat strange adaptation as it's not actually a new
+            adaptation, instead it's a re-edited version of the movie trilogy
+            mentioned below with some additional scenes that were cut from the
+            films. However, it does seem to be being recieved well and is a much
+            appreciated improvement from the previous anime adaptation.
+          </Text>
+        </div>
+        {/* This section is about the movie trilogy */}
+        <Heading className="head">The Movie Trilogy</Heading>
+        <div>
+          <Heading className="smallhead">
+            Berserk: Golden Age Arc I The Egg Of The King
+          </Heading>
+          <Image
+            alt="Cover Art for the game"
+            className="longgameimg"
+            src={require("../../Images/Movies/BM1.jpg")}
+          />
+          <Text className="text">
             The trilogy of films were another adaptation of the "Golden Age" arc
             of Berserk, just the same as the 1997 anime, with this film in
             particular covering the first third of the arc up to Griffith's
@@ -157,18 +179,18 @@ export default function Adaptations() {
             is considered a somewhat rocky start to a trilogy of films that will
             eventually give some of the most emotional scenes in the "Golden
             Age" arc the treatment they deserve.
-          </p>
+          </Text>
         </div>
         <div>
-          <h5 className="smallhead">
+          <Heading className="smallhead">
             Berserk: Golden Age Arc II The Battle For Doldrey
-          </h5>
-          <img
+          </Heading>
+          <Image
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/BM2.jpg")}
+            src={require("../../Images/Movies/BM2.jpg")}
           />
-          <p className="text">
+          <Text className="text">
             The second film in the trilogy sees improvements in the 3D vs 2D
             issue but somehow is worse with changing the story being told. The
             wider elements remain mostly unchanged, but certain particulars are
@@ -182,16 +204,18 @@ export default function Adaptations() {
             includes some of Berserk's most iconic bits and pieces brought to
             the screen beautifully as well as ending on one heck of a cliff
             hanger as we see our main characters in deathly peril.
-          </p>
+          </Text>
         </div>
         <div>
-          <h5 className="smallhead">Berserk: Golden Age Arc III The Advent</h5>
-          <img
+          <Heading className="smallhead">
+            Berserk: Golden Age Arc III The Advent
+          </Heading>
+          <Image
             alt="Cover Art for the game"
             className="longgameimg"
-            src={require("../../Images/BM3.jpg")}
+            src={require("../../Images/Movies/BM3.jpg")}
           />
-          <p className="text">
+          <Text className="text">
             The finale of the trilogy sees the films finally find their footing,
             with the ending of the Golden Age being as powerful as it is, full
             force is put into bringing the events to the screen as faithfully as
@@ -207,7 +231,7 @@ export default function Adaptations() {
             their conclusion and gets past the abrupt ending of the 1997 anime,
             with a particular section towards the end of the film being one of
             the powerful scenes in all of animation.
-          </p>
+          </Text>
         </div>
       </section>
       {/* A few line breaks just for better visuals without needing to add more css */}
@@ -215,10 +239,10 @@ export default function Adaptations() {
       <br></br>
       {/* A disclaimer due to the various images used on this page */}
       <section>
-        <p className="smalltext">
+        <Text className="smalltext">
           The images used on this page belong to their respective copyright
           holders, I do not claim ownership
-        </p>
+        </Text>
       </section>
     </div>
   );
