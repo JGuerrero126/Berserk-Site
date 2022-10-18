@@ -8,6 +8,24 @@
   width: 100%;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 1rem;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: red black;
+}
+
 body a {
   cursor: url("../Images/dragonslayer-export.png"), auto;
   animation: cursor 0.5s linear infinite;
@@ -93,7 +111,6 @@ audio::-webkit-media-controls-panel {
 
 .hero {
   width: 100%;
-  /* height: 60rem; */
 }
 
 .credit {
@@ -230,31 +247,9 @@ audio::-webkit-media-controls-panel {
   height: 25rem;
 }
 
-.mangaimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  border: 1rem groove red;
-  width: 90%;
-}
-
-.mangatallimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  border: 1rem groove red;
-  width: 60%;
-}
-
-.mangashortimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  border: 1rem groove red;
-  width: 50%;
+.cursor {
+  cursor: url("../Images/dragonslayer-export.png"), auto;
+  animation: cursor 0.5s linear infinite;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -263,7 +258,7 @@ audio::-webkit-media-controls-panel {
   }
 
   .hero {
-    height: 80rem;
+    /* height: 80rem; */
   }
 
   .music {
@@ -323,7 +318,7 @@ audio::-webkit-media-controls-panel {
   }
 
   .hero {
-    height: 40rem;
+    /* height: 40rem; */
   }
 
   footer {

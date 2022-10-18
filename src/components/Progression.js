@@ -1,20 +1,18 @@
 import React from "react";
-import FirstGuts from "../Images/GutsFA.jpg";
-import UpdatedGuts from "../Images/GutsUA.png";
-import FirstFemto from "../Images/FemtoFA.png";
-import UpdatedFemto from "../Images/FemtoUA.jpg";
+import FirstGuts from "../Images/Progress/GutsFA.jpg";
+import UpdatedGuts from "../Images/Progress/GutsUA.png";
+import FirstFemto from "../Images/Progress/FemtoFA.png";
+import UpdatedFemto from "../Images/Progress/FemtoUA.jpg";
 import {
-  Center,
-  Flex,
   Heading,
   Image,
   Modal,
-  ModalCloseButton,
   ModalContent,
   ModalOverlay,
   Text,
   useDisclosure,
   Wrap,
+  WrapItem,
 } from "@chakra-ui/react";
 
 export default function Progression() {
@@ -41,15 +39,18 @@ export default function Progression() {
 
   return (
     <section>
-      <Heading className="head">The Progression</Heading>
+      <Heading fontSize="4rem" className="head" fontFamily="Koulen">
+        The Progression
+      </Heading>
       <Text mt="1rem" mb="1rem" className="text">
         Berserk's author, Kentaro Muira, undergoes quite the artistic journey
         throughout the story of Berserk. Despite having considerable skill from
         the start, his art becomes simply masterful.
       </Text>
-      <Wrap justify="center" spacing="3rem">
-        <div>
+      <Wrap ml="2rem" mr="2rem" justify="center" spacing="3rem">
+        <WrapItem>
           <Image
+            className="cursor"
             onClick={ogGutsDisplay}
             border="0.5rem groove crimson"
             maxW="10rem"
@@ -59,12 +60,13 @@ export default function Progression() {
           />
           <Modal isCentered size="xl" onClose={ogGutsClose} isOpen={ogGutsOpen}>
             <ModalOverlay bg="blackAlpha.300" backdropFilter="blur(10px)" />
-            <ModalCloseButton />
             <ModalContent bg="">
               <Text mt="1rem" className="text" color="red" fontFamily="Koulen">
                 This is Guts from the very first chapter of Berserk.
               </Text>
               <Image
+                maxHeight="90vh"
+                maxW="75vw"
                 border="1rem groove crimson"
                 id="firstGuts"
                 src={FirstGuts}
@@ -72,9 +74,10 @@ export default function Progression() {
               />
             </ModalContent>
           </Modal>
-        </div>
-        <div>
+        </WrapItem>
+        <WrapItem>
           <Image
+            className="cursor"
             onClick={upGutsDisplay}
             border="0.5rem groove crimson"
             maxW="10rem"
@@ -84,13 +87,14 @@ export default function Progression() {
           />
           <Modal isCentered size="xl" onClose={upGutsClose} isOpen={upGutsOpen}>
             <ModalOverlay bg="blackAlpha.300" backdropFilter="blur(10px)" />
-            <ModalCloseButton />
-            <ModalContent bg="opacity(0%)">
+            <ModalContent bg="">
               <Text mt="1rem" className="text" color="red" fontFamily="Koulen">
                 Here is Guts at the same point of time but drawn much later in
                 Muira's career
               </Text>
               <Image
+                maxHeight="90vh"
+                maxW="75vw"
                 border="1rem groove crimson"
                 id="updatedGuts"
                 src={UpdatedGuts}
@@ -98,9 +102,10 @@ export default function Progression() {
               />
             </ModalContent>
           </Modal>
-        </div>
-        <div>
+        </WrapItem>
+        <WrapItem>
           <Image
+            className="cursor"
             onClick={ogGrifDisplay}
             border="0.5rem groove crimson"
             maxW="10rem"
@@ -110,13 +115,14 @@ export default function Progression() {
           />
           <Modal isCentered size="xl" onClose={ogGrifClose} isOpen={ogGrifOpen}>
             <ModalOverlay bg="blackAlpha.300" backdropFilter="blur(10px)" />
-            <ModalCloseButton />
-            <ModalContent bg="opacity(0%)">
+            <ModalContent bg="">
               <Text mt="1rem" className="text" color="red" fontFamily="Koulen">
                 This is Femto, the series Antagonist, from one of the first
                 chapters of Berserk
               </Text>
               <Image
+                maxHeight="90vh"
+                maxW="75vw"
                 border="1rem groove crimson"
                 id="firstFemto"
                 src={FirstFemto}
@@ -124,9 +130,10 @@ export default function Progression() {
               />
             </ModalContent>
           </Modal>
-        </div>
-        <div>
+        </WrapItem>
+        <WrapItem>
           <Image
+            className="cursor"
             onClick={upGrifDisplay}
             border="0.5rem groove crimson"
             maxW="10rem"
@@ -136,13 +143,14 @@ export default function Progression() {
           />
           <Modal isCentered size="xl" onClose={upGrifClose} isOpen={upGrifOpen}>
             <ModalOverlay bg="blackAlpha.300" backdropFilter="blur(10px)" />
-            <ModalCloseButton />
-            <ModalContent bg="opacity(0%)">
+            <ModalContent bg="">
               <Text mt="1rem" className="text" color="red" fontFamily="Koulen">
                 Here is Femto from around the same point in time but drawn much
                 later in Muira's career
               </Text>
               <Image
+                maxHeight="90vh"
+                maxW="75vw"
                 border="1rem groove crimson"
                 id="updatedFemto"
                 src={UpdatedFemto}
@@ -150,7 +158,7 @@ export default function Progression() {
               />
             </ModalContent>
           </Modal>
-        </div>
+        </WrapItem>
       </Wrap>
     </section>
   );

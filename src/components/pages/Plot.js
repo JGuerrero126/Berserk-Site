@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Plot() {
   return (
-    <section>
+    <section className="heightvh">
       <h2 className="head">The Plot Of Berserk</h2>
       <h3 className="smalltext">
         The Following is a brief synopsis of the basic plot of Berserk

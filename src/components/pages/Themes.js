@@ -12,7 +12,7 @@ export default function Themes() {
       <img
         alt="manga panel showing Skull Knight talking to Guts"
         className="struggleimg"
-        src={require("../../Images/takeheedstruggler.png")}
+        src={require("../../Images/Themes/takeheedstruggler.png")}
       />
       <p className="text">
         These are the words spoken from Skull Knight to Guts. Guts is often

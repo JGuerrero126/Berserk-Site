@@ -7,7 +7,7 @@ import Themes from "./pages/Themes";
 import Adaptations from "./pages/Adaptations";
 import Footer from "./Footer";
 import Music from "./Music";
-import Manga from "./pages/Manga";
+import Artwork from "./pages/Artwork";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
     if (currentPage === "Adaptations") {
       return <Adaptations />;
     }
-    return <Manga />;
+    return <Artwork />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
