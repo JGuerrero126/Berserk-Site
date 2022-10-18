@@ -101,7 +101,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="blackSword"
                   src={BlackSword}
@@ -127,7 +127,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="skullKnightSmoke"
                   src={SkullKnightSmoke}
@@ -158,7 +158,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="gutsHeavy"
                   src={GutsHeavy}
@@ -189,7 +189,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="darkness"
                   src={Darkness}
@@ -220,7 +220,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="Ganishka"
                   src={Ganishka}
@@ -246,7 +246,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="Fight"
                   src={Fight}
@@ -272,7 +272,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="OnHill"
                   src={OnHill}
@@ -298,7 +298,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="Eclipse"
                   src={Eclipse}
@@ -324,7 +324,7 @@ export default function PandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="Void"
                   src={Void}

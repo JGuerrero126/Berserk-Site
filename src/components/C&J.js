@@ -69,7 +69,7 @@ export default function CandJ() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="puckShock"
                   src={PuckShock}
@@ -100,7 +100,7 @@ export default function CandJ() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   d="puckBright"
                   src={PuckBright}
@@ -131,7 +131,7 @@ export default function CandJ() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="smile"
                   src={Smile}
@@ -162,7 +162,7 @@ export default function CandJ() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="schriekeShock"
                   src={SchriekeShock}
