@@ -66,7 +66,7 @@ export default function Progression() {
               </Text>
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="firstGuts"
                 src={FirstGuts}
@@ -94,7 +94,7 @@ export default function Progression() {
               </Text>
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="updatedGuts"
                 src={UpdatedGuts}
@@ -122,7 +122,7 @@ export default function Progression() {
               </Text>
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="firstFemto"
                 src={FirstFemto}
@@ -150,7 +150,7 @@ export default function Progression() {
               </Text>
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="updatedFemto"
                 src={UpdatedFemto}

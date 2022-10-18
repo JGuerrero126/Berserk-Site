@@ -97,7 +97,7 @@ export default function BandL() {
                   border="1rem groove crimson"
                   id="gutsRest"
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   src={GutsRest}
                   alt="One-Eyed Male Warrior wrapped in black cloak laying against tree stump, facing the rising sun"
                 />
@@ -121,7 +121,7 @@ export default function BandL() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="kiss"
                   src={Kiss}
@@ -152,7 +152,7 @@ export default function BandL() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="saveCasca"
                   src={SaveCasca}
@@ -180,7 +180,7 @@ export default function BandL() {
                   border="1rem groove crimson"
                   id="MBSaves"
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   src={MBSaves}
                   alt="Small child-looking shape pushes away darkness from man about to lose himself"
                 />
@@ -206,7 +206,7 @@ export default function BandL() {
                   border="1rem groove crimson"
                   id="Group"
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   src={Group}
                   alt="One-Eyed Male Warrior in black armor overlooks his companions having an amazing time while splashing around the beach."
                 />
@@ -232,7 +232,7 @@ export default function BandL() {
                   border="1rem groove crimson"
                   id="Casca"
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   src={Casca}
                   alt="Woman with long hair is nearly crying with a face of deep appreciation and adoration."
                 />
@@ -258,7 +258,7 @@ export default function BandL() {
                   border="1rem groove crimson"
                   id="FarneseMagic"
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   src={FarneseMagic}
                   alt="Floating female soars through the sky while holding the hand of a little witch girl who has a little elf next to her. The female has a face of awe."
                 />
@@ -289,7 +289,7 @@ export default function BandL() {
                   border="1rem groove crimson"
                   id="SchriekeSavingGuts"
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   src={SchriekeSavingGuts}
                   alt="Little witch girl reaches out to save a man who is being consumed by darkness."
                 />
@@ -315,7 +315,7 @@ export default function BandL() {
                   border="1rem groove crimson"
                   id="Someone"
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   src={Someone}
                   alt="Woman in dress made of flowers approaches Man in black cloak and armor, they are meeting under a tree as leaves slowly fall to the ground."
                 />

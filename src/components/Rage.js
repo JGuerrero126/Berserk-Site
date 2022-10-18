@@ -75,7 +75,7 @@ export default function Rage() {
             <ModalContent bg="">
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="anger"
                 src={Anger}
@@ -99,7 +99,7 @@ export default function Rage() {
             <ModalContent bg="">
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="rage"
                 src={Raging}
@@ -123,7 +123,7 @@ export default function Rage() {
             <ModalContent bg="">
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="flame"
                 src={Flame}
@@ -147,7 +147,7 @@ export default function Rage() {
             <ModalContent bg="">
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="scream"
                 src={Scream}
@@ -171,7 +171,7 @@ export default function Rage() {
             <ModalContent bg="">
               <Image
                 maxHeight="90vh"
-                maxW="75vw"
+                maxW="90vw"
                 border="1rem groove crimson"
                 id="Sword"
                 src={Sword}

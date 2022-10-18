@@ -89,7 +89,7 @@ export default function HandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="eclipse"
                   src={Eclipse}
@@ -115,7 +115,7 @@ export default function HandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="redLake"
                   src={RedLake}
@@ -141,7 +141,7 @@ export default function HandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="hell"
                   src={Hell}
@@ -172,7 +172,7 @@ export default function HandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="skin"
                   src={Skin}
@@ -198,7 +198,7 @@ export default function HandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="Bodies"
                   src={Bodies}
@@ -224,7 +224,7 @@ export default function HandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="Corpses"
                   src={Corpses}
@@ -255,7 +255,7 @@ export default function HandD() {
               <Center>
                 <Image
                   maxHeight="90vh"
-                  maxW="75vw"
+                  maxW="90vw"
                   border="1rem groove crimson"
                   id="GutsDespair"
                   src={GutsDespair}
